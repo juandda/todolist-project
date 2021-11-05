@@ -32,6 +32,7 @@ function App() {
 
   useEffect(() =>{
     filterHandler()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [todoList, status])
 
 
